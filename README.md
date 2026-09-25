@@ -8,13 +8,9 @@ A real-time speech-to-speech translator for Indian languages that aims to preser
 
 ## Current status
 
-Working end-to-end prototype that:
-- Takes a voice recording in Hindi
-- Translates it to English using Whisper (faster-whisper, medium model)
-- Speaks the English translation in the user's own cloned voice using F5-TTS
-- Uses a spoken consent phrase as the voice reference
-
-Baseline: ~6.5 seconds to generate the cloned audio on a T4 GPU.
+- Custom accessible web UI (light and dark mode) built with HTML and Tailwind CSS
+- FastAPI backend serving the AI pipeline, exposed via Cloudflare Tunnel
+- Supports Hindi, Tamil, and Telugu speech input with English voice output
 
 ## Pipeline
 
