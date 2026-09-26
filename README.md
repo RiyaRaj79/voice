@@ -8,9 +8,7 @@ A real-time speech-to-speech translator for Indian languages that aims to preser
 
 ## Current status
 
-- Custom accessible web UI (light and dark mode) built with HTML and Tailwind CSS
-- FastAPI backend serving the AI pipeline, exposed via Cloudflare Tunnel
-- Supports Hindi, Tamil, and Telugu speech input with English voice output
+- Tested English to Hindi, Tamil, and Telugu text translation with Meta's NLLB (~0.3s per sentence)
 
 ## Pipeline
 
